@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>BluEasy Limited</title>
+
+	<!--=======Favicon========-->
+
+	<link rel="icon" href="images/icon.jpg">
+
+	<!--=======Bootstrap Css========-->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+	<!--=======Main Css========-->
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--=======Responsive Css========-->
+
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+    	<!--=======Content Start========-->
+    	<!--=======Header Start========-->
+<header class="blue-header">
+        <div class="blue-header-top">
+            <div class="container">
+                <div class="row">
+                 <div class="col-2">
+                    <div class="blue-logo">
+                       <a href="index.html"><img src="images/logo.png" alt="BluEasy-LOGO"></a>
+                    </div>
+                 </div>
+                 <div class="col-10">
+                    <nav class="blue-menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#our-service">services</a></li>
+                            <li><a href="#">features</a></li>
+                            <li><a href="#our-portfolio">portfolio</a></li>
+                            <li><a href="#contactUs">contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="responsive-menu-bar">
+                       <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="responsive-menu-bar-close">
+                       <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        <div class="blue-header-bottom">
+            <div class="blue-header-bottom-text">
+                <h1>“I’m looking for the unexpected.</h1>
+                <h2>I’m looking for things I’ve never seen before.”</h2>
+            </div>
+        </div>
+</header>      
+
+    	<!--=======Header End ========-->
+        <!--=======Services Start ========-->
+<section class="blue-services" id="our-service">
+    <div class="container">
+        <div class="blue-ser-top">
+            <div class="blue-sec-title">
+                <div class="blue-sec-title-text">
+                    <h2>services</h2>
+                </div>
+                <div class="just-for-border"></div>
+            </div>
+        </div>
+        <div class="blue-ser-bottom">
+            <div class="blue-ser-items">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="blue-ser-sin-item">
+                            <div class="blue-ser-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="blue-ser-text">
+                                <h4>coffee</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="blue-ser-sin-item">
+                            <div class="blue-ser-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="blue-ser-text">
+                                <h4>instant</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="blue-ser-sin-item">
+                            <div class="blue-ser-icon">
+                               <i class="fab fa-canadian-maple-leaf"></i>
+                            </div>
+                            <div class="blue-ser-text">
+                                <h4>serious</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="blue-ser-sin-item">
+                            <div class="blue-ser-icon">
+                                <i class="fas fa-file-signature"></i>
+                            </div>
+                            <div class="blue-ser-text">
+                                <h4>frame</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!--=======Services End ========-->
+        <!--=======Portfolio Start ========-->
+<section class="blue-portfolio" id="our-portfolio">
+    <div class="container">
+        <div class="blue-portfolio-top">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="blue-port-title">
+                       <div class="blue-port-title-text">
+                          <h2>portfolio</h2>
+                      </div>
+                    <div class="just-for-border-port"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="button-group filter-button-group blue-buttons">
+                    <button data-filter="*" class="active">all</button>
+                    <button data-filter=".pano">panoramas</button>
+                    <button data-filter=".port">portraits</button>
+                    <button data-filter=".macro">macro</button>
+                    <button data-filter=".jrnl">journal</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="blue-portfolio-bottom">
+            <div class="row grid">
+                <div class="col-md-3 grid-item pano">
+                    <div class="blue-port-item">
+                        <img src="images/port1.png">
+                        <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item pano">
+                    <div class="blue-port-item">
+                        <img src="images/port2.png">
+                        <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item port">
+                    <div class="blue-port-item">
+                        <img src="images/port3.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item port">
+                    <div class="blue-port-item">
+                        <img src="images/port4.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item jrnl">
+                    <div class="blue-port-item">
+                        <img src="images/port5.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item jrnl">
+                    <div class="blue-port-item">
+                        <img src="images/port6.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item macro">
+                    <div class="blue-port-item">
+                        <img src="images/port7.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 grid-item macro">
+                    <div class="blue-port-item">
+                        <img src="images/port8.png">
+                         <div class="blue-port-item-overlay">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>        
+        <!--=======Portfolio End ========-->
+        <!--=======Default Start ========-->
+<section class="blue-default">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="blue-default-left">
+                    <div class="blue-sec-title">
+                       <div class="blue-sec-title-text">
+                         <h2>just default section</h2>
+                      </div>
+                      <div class="just-for-border"></div>
+                   </div>
+                   <div class="blue-default-left-text">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                       <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   </div>
+                   <div class="blue-default-left-btn">
+                       <button>visit me</button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="blue-default-right">
+                    <video controls class="default-video">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                   </video>
+                </div>
+            </div>
+        </div>
+        <div class="blue-twiter">
+            <div class="blue-twiter-top">
+               <div class="row">
+                 <div class="col-6">
+                     <div class="blue-sec-title">
+                       <div class="blue-sec-title-text">
+                         <h2>twitter</h2>
+                      </div>
+                      <div class="just-for-border"></div>
+                   </div>
+                 </div>
+                 <div class="col-6">
+                     <div class="blue-twiter-link">
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                     </div>
+                 </div>
+               </div>
+            </div>
+            <div class="blue-twiter-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div> 
+        </div>
+    </div>
+</section>
+        <!--=======Default End ========-->
+        <!--=======About Start ========-->
+        
+<section class="blue-doe-about">
+    <div class="container">
+       <div class="blue-doe-about-top">
+          <div class="blue-sec-title">
+             <div class="blue-sec-title-text">
+                <h2>who is john doe?</h2>
+             </div>
+            <div class="just-for-border"></div>
+          </div>
+       </div>
+       <div class="blue-doe-about-bottom">
+           <div class="row">
+            <div class="col-md-6">
+                <div class="blue-doe-about-left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blue-doe-about-right">
+                    <div class="blue-doe-about-right-top">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="blue-doe-about-right-bottom">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+       </div>        
+    </div>
+</section>
+
+        <!--=======About End ========-->
+        <!--=======Testimonials Start ========-->
+<section class="blue-testimonials">
+    <div class="container">
+        <div class="blue-testimonials-top">
+            <div class="row">
+                <div class="col-6">
+                    <div class="blue-testimonials-top-left">
+                      <div class="blue-port-title">
+                       <div class="blue-port-title-text">
+                          <h2>testimonials</h2>
+                       </div>
+                      <div class="just-for-border-port"></div>
+                     </div>
+                    </div>
+                 </div>
+                <div class="col-6">
+                    <div class="blue-testimonials-top-right">
+                        <h2>"</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blue-testimonials-bottom">
+            <h6> Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+            <p>-walter white</p>
+        </div>
+    </div>
+</section>
+        <!--=======Testimonials End ========-->
+        <!--=======Contact Start ========-->
+<section class="blue-contact" id="contactUs">
+    <div class="container">
+        <div class="blue-contact-top">
+            <div class="blue-sec-title">
+             <div class="blue-sec-title-text">
+                <h2>contact</h2>
+             </div>
+            <div class="just-for-border"></div>
+          </div>
+        </div>
+        <div class="blue-contact-bottom">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="con-input-left">
+                        <label>FULL NAME</label>
+                        <input type="text" name="text" class="form-control">
+                        <label>EMAIL</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="con-info-right">
+                        <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+                        <span>Linda Newman </span>
+                        <span>W325 State Road 123</span>
+                        <span> Mondovi, WI(Wisconsin) 98746-54321 </span>
+                        <span>(715) 946 - 1234 </span>         
+                    </div>
+                </div>
+            </div>
+            <div class="message-box">
+                <label>MESSAGE</label>
+                <textarea class="form-control"></textarea>
+            </div>
+           <div class="sent-button">
+               <button>MESSAGE</button>
+          </div>
+        </div>
+        <div class="hidden-con-info-for-420px">
+          <div class="con-info-right">
+             <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+             <span>Linda Newman </span>
+             <span>W325 State Road 123</span>
+             <span> Mondovi, WI(Wisconsin) 98746-54321 </span>
+             <span>(715) 946 - 1234 </span>         
+          </div>
+        </div>
+    </div>
+</section>
+        <!--=======Contact End ========-->
+        <!--=======Footer Start ========-->
+<footer class="blue-footer">
+    <div class="container">
+       <div class="blue-footer-left">
+        <a href="index.html">home |</a>
+        <a href="#our-service">services |</a>
+        <a href="#">features |</a>
+        <a href="#our-portfolio">portfolio |</a>
+        <a href="#contactUs">contact |</a>
+    </div>
+    <div class="blue-footer-right">
+        <p><i class="far fa-copyright"></i> <a href="#"> Nayeem Islam</a> | 2020</p>
+    </div> 
+    </div>
+</footer>
+        <!--=======Footer End ========-->
+<div class="scrll">
+    <i class="fas fa-angle-double-up"></i>
+</div> 
+
+
+        <!--=======Content End========-->
+
+
+<!--=======jQuery.com========-->
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+   <!--=======Font Awesome========-->
+
+   <script src="https://kit.fontawesome.com/20572c93fb.js" crossorigin="anonymous"></script>
+   
+  
+   <!--=======Bootstrap js========-->
+
+    <script src="js/custom.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+   <!--=======JQuery plugin========-->
+
+   <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
+   <script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html>
