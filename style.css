@@ -1,0 +1,503 @@
+/* =-=-=-=-=-=
+               Google Font
+                          =-=-=-=-=-=-=-=-*/ 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+
+/* =-=-=-=-=-=
+               Common CSS
+                          =-=-=-=-=-=-=-=-*/ 
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.col-10{
+	position: static;
+}
+
+/* =-=-=-=-=-=
+               Header CSS
+                          =-=-=-=-=-=-=-=-*/ 
+.blue-header{
+	background-image: url(images/headerbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}                          
+.blue-header-top{
+	background-color: rgba(71, 82, 89, .8);
+	padding: 30px 0;
+	position: relative;
+}
+.blue-logo{}
+.blue-menu{
+	float: right;
+}
+.blue-menu ul{
+	display: flex;
+	padding: 0;
+}
+.blue-menu ul li{
+	list-style: none;
+}
+.blue-menu ul li a{
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	transition: .3s;
+}
+.blue-menu ul li a:hover{
+	background: transparent;
+	color: #4995b7;
+    border-radius: 5px;
+}
+
+.responsive-menu-bar{
+	float: right;
+	display: none;
+}
+.responsive-menu-bar i{
+	font-size: 30px;
+	color: #ddd;
+}
+.responsive-menu-bar-close{
+	float: right;
+	display: none;
+}
+.responsive-menu-bar-close i{
+	font-size: 30px;
+	color: #ddd;
+}
+
+.blue-header-bottom{
+
+}
+.blue-header-bottom-text{
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blue-header-bottom-text h1{
+	font-size: 40px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #ffffff;
+	background: #4a555c;
+    width: 650px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px 0;
+}
+.blue-header-bottom-text h2{
+	font-size: 40px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	line-height: 30px;
+	color: #ffffff;
+	background: #4a555c;
+    width: 900px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* =-=-=-=-=-=
+               Service CSS
+                          =-=-=-=-=-=-=-=-*/ 
+.blue-services{
+	background: #4bcaff;
+	padding: 100px 0;
+}  
+.blue-ser-top{}
+.blue-sec-title{}
+.blue-sec-title-text{}
+.blue-sec-title-text h2{
+	font-size: 30px;
+	font-weight: lighter;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.just-for-border{
+	width: 50px;
+	height: 2px;
+	background: #ffffff;
+}
+.blue-ser-bottom{
+	padding-top: 50px;
+}
+.blue-ser-items{}
+.blue-ser-sin-item{
+	border: 2px solid #ffffff;
+	padding: 20px 30px;
+}
+.blue-ser-icon{}
+.blue-ser-icon i{
+	font-size: 40px;
+	color: #ffffff;
+}
+.blue-ser-text{}
+.blue-ser-text h4{
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 0;
+}
+.blue-ser-text p{
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+/* =-=-=-=-=-=
+               Portfolio CSS
+                          =-=-=-=-=-=-=-=-*/ 
+
+.blue-portfolio{
+	padding: 100px 0;
+	background: #ffffff;
+}
+.blue-portfolio-top{}
+.blue-port-title{}
+.blue-port-title-text{}
+.blue-port-title-text h2{
+	color: #515f67;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.just-for-border-port{
+	width: 50px;
+	height: 2px;
+	background: #515f67;
+}
+.blue-buttons{}
+.blue-buttons button{
+	color: #69747b;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 3px 15px;
+	margin-left: 5px;
+	border: 0;
+	background: transparent;
+}
+.blue-buttons .active{
+	background: transparent;
+	border: 2px solid #4995b7;
+	color: #4995b7;
+    border-radius: 5px;
+}
+.blue-portfolio-bottom{
+	margin-top: 80px;
+}
+.blue-port-item{
+	margin-bottom: 20px;
+}
+.blue-port-item-overlay{
+	background: rgba(60, 69, 76, .8);
+	width: 89%;
+	height: 255px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 1s;
+}
+.blue-port-item-overlay i{
+	color: #ffffff;
+	font-size: 35px;
+}
+.blue-port-item:hover .blue-port-item-overlay{
+	opacity: 1;
+}
+
+/* =-=-=-=-=-=
+               Default CSS
+                          =-=-=-=-=-=-=-=-*/
+.blue-default{
+	padding: 80px 0;
+	background-color: #515f67;
+}
+.blue-default-left{}
+.blue-default-left-text{}
+.blue-default-left-text p{
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+.blue-default-left-btn{
+	margin-top: 50px;
+}
+.blue-default-left-btn button{
+	color: #353f46;
+	background: transparent;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border: 2px solid #353f46;
+	font-weight: 700;
+	border-radius: 5px;
+	transition: all 1s;
+}
+.blue-default-left-btn button:hover{
+	background: #4bcaff;
+	color: #ffffff;
+}
+.default-video{
+	width: 500px;
+	margin-left: 40px;
+}
+.blue-twiter{
+	margin-top: 100px;
+}
+.blue-twiter-top{}
+.blue-twiter-link{
+	text-align: right;
+}
+.blue-twiter-link a i{
+	font-size: 30px;
+	color: #ffffff;
+}
+.blue-twiter-bottom{
+	padding-top: 30px;
+}
+.blue-twiter-bottom p{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+/* =-=-=-=-=-=
+               Doe About CSS
+                          =-=-=-=-=-=-=-=-*/ 
+.blue-doe-about{
+	background: url(images/doebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+.blue-doe-about-top{}
+.blue-doe-about-bottom{
+	margin-top: 50px;
+}
+.blue-doe-about-left{}
+.blue-doe-about-left p{
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.blue-doe-about-right{}
+.blue-doe-about-right-top{}
+.blue-doe-about-right-top p{
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.blue-doe-about-right-bottom{
+	margin-top: 25px;
+}
+.blue-doe-about-right-bottom a{
+	margin-left: 10px;
+}
+.blue-doe-about-right-bottom a i{
+	font-size: 30px;
+	color: #ffffff;
+	background: transparent;
+	border: 2px solid #ffffff;
+	padding: 15px;
+	transition: all 1s;
+}
+.blue-doe-about-right-bottom a i:hover{
+	transform: rotateZ(360deg);
+}
+
+
+/* =-=-=-=-=-=
+               Testimonials CSS
+                          =-=-=-=-=-=-=-=-*/ 
+.blue-testimonials{
+	background: #ffffff;
+	padding: 80px 0;
+}
+.blue-testimonials-top{}
+.blue-testimonials-top-left{}
+.blue-testimonials-top-right{
+	text-align: right;
+}
+.blue-testimonials-top-right h2{
+	font-size: 50px;
+	color: #515f67;
+}
+.blue-testimonials-bottom{
+	padding-top: 20px;
+}
+.blue-testimonials-bottom h6{
+	font-size: 22px;
+	color: #515f67;
+	line-height: 40px;
+	text-transform: capitalize;
+}
+.blue-testimonials-bottom p{
+	font-size: 18px;
+	color: #4bcaff;
+	text-transform: capitalize;
+}
+
+/* =-=-=-=-=-=
+               Contact CSS
+                          =-=-=-=-=-=-=-=-*/
+.blue-contact{
+	background-image: url(images/conbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0;
+}
+.blue-contact-top{}
+.blue-contact-bottom{
+	margin-top: 40px;
+}
+.con-input-left{}
+.con-input-left label{
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 15px;
+}
+.con-input-left input{
+	background: transparent;
+	border: 2px solid #ffffff;
+	margin-bottom: 10px;
+}
+.con-info-right{
+	margin-top: 20px;
+	padding-left: 30px;
+}
+.con-info-right p{
+	color: #ffffff;
+	font-size: 15px;
+}
+.con-info-right span{
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+}
+.hidden-con-info-for-420px .con-info-right{
+    display: none;
+}
+.message-box{}
+.message-box label{
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 15px;
+}
+.message-box textarea{
+	background: transparent;
+	border: 2px solid #ffffff;
+	height: 200px;
+}
+.sent-button{
+	margin-top: 30px;
+}
+.sent-button button{
+	width: 300px;
+	padding: 12px;
+	background: #4bcaff;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 700;
+	border: 0;
+}
+
+/* =-=-=-=-=-=
+               Footer CSS
+                          =-=-=-=-=-=-=-=-*/
+.blue-footer{
+	background: #353f47;
+	padding: 60px 0;
+	position: relative;
+}
+.blue-footer-left{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-20%,-50%);
+}
+.blue-footer-left a{
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #515f67;
+}
+.blue-footer-right{
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	transform: translate(-50%,-20%);
+}
+.blue-footer-right p{}
+.blue-footer-right p i{}
+.blue-footer-right p a{
+    font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #515f67;
+}
+
+/* =-=-=-=-=-=
+               Scroll CSS
+                          =-=-=-=-=-=-=-=-*/
+.scrll{
+	background: transparent;
+	border: 2px solid #4bcaff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 40px;
+	right: 60px;
+	cursor: pointer;
+	text-align: center;
+	opacity: 0;
+	transition: all 1s;
+}
+.scrll i{
+	font-size: 15px;
+	color: #ffffff;
+	padding-top: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
